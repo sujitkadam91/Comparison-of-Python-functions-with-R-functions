@@ -1,5 +1,7 @@
 # Comparison-of-Python-functions-with-R-functions
 ###Subscribe this YouTube Channel Data/Fun
+
+### R Codes
 ## How to install and load Package
 
 install.packages("dplyr")
@@ -122,17 +124,22 @@ New_df<- rename(df,New_Age= Age)
 names(New_df)
 ############Subscribe this YouTube Channel Data/Fun############
 
-************************* PYTHON CODES ******************************************************************************************
-###Subscribe this YouTube Channel Data/Fun
+### PYTHON CODES 
+
 ## How to install and load Package
+
 !pip install numpy       #install 
+
 !pip pandas numpy
+
 import numpy as np
+
 import pandas as pd
 
 ## For Checking working Directory
 
 import os
+
 os.getcwd()
 
 
@@ -145,13 +152,12 @@ os.chdir("E:\\Data Sets")
 
 os.listdir()
 
-#Subscribe this YouTube Channel Data/Fun
+
 ## For reading csv file 
 #https://www.kaggle.com/c/titanic/data
 
 df = pd.read_csv("train.csv")
 
-#Subscribe this YouTube Channel Data/Fun
 ## For Checking structure of Data frame
 
 df.info()
